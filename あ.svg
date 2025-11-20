@@ -1,0 +1,114 @@
+<svg width="650" height="1050" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: 'Meiryo', 'Hiragino Sans', sans-serif; font-size: 20px; font-weight: bold; fill: #2c3e50; }
+      .category { font-family: 'Meiryo', 'Hiragino Sans', sans-serif; font-size: 13px; font-weight: bold; fill: #34495e; }
+      .subcategory { font-family: 'Meiryo', 'Hiragino Sans', sans-serif; font-size: 11px; fill: #555; }
+      .note { font-family: 'Meiryo', 'Hiragino Sans', sans-serif; font-size: 9px; fill: #7f8c8d; }
+      .box { fill: #ecf0f1; stroke: #95a5a6; stroke-width: 2; rx: 5; }
+      .highlight { fill: #e8f6f3; stroke: #16a085; stroke-width: 2; rx: 5; }
+      .line { stroke: #95a5a6; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+  
+  <text x="325" y="30" text-anchor="middle" class="title">トロコイド系曲線の分類体系</text>
+  <text x="325" y="50" text-anchor="middle" class="note">Trochoid Family Curves Classification</text>
+  
+  <rect x="225" y="70" width="200" height="45" class="box"/>
+  <text x="325" y="98" text-anchor="middle" class="category">転がる場所は？</text>
+  
+  <line x1="325" y1="115" x2="325" y2="140" class="line"/>
+  <line x1="140" y1="140" x2="510" y2="140" class="line"/>
+  <line x1="140" y1="140" x2="140" y2="165" class="line"/>
+  <line x1="510" y1="140" x2="510" y2="165" class="line"/>
+  
+  <rect x="40" y="165" width="200" height="45" class="box"/>
+  <text x="140" y="193" text-anchor="middle" class="category">直線上を転がる</text>
+  
+  <rect x="410" y="165" width="200" height="45" class="box"/>
+  <text x="510" y="193" text-anchor="middle" class="category">円の上を転がる</text>
+  
+  <line x1="140" y1="210" x2="140" y2="235" class="line"/>
+  <line x1="40" y1="235" x2="240" y2="235" class="line"/>
+  <line x1="40" y1="235" x2="40" y2="260" class="line"/>
+  <line x1="240" y1="235" x2="240" y2="260" class="line"/>
+  
+  <rect x="5" y="260" width="70" height="75" class="highlight"/>
+  <text x="40" y="278" text-anchor="middle" class="subcategory">サイクロイド</text>
+  <text x="40" y="293" text-anchor="middle" class="note">Cycloid</text>
+  <text x="40" y="308" text-anchor="middle" class="note">追跡点：円周上</text>
+  <text x="40" y="323" text-anchor="middle" class="note">最速降下線</text>
+  
+  <rect x="105" y="260" width="165" height="75" class="highlight"/>
+  <text x="187" y="278" text-anchor="middle" class="subcategory">トロコイド</text>
+  <text x="187" y="293" text-anchor="middle" class="note">Trochoid</text>
+  <text x="187" y="308" text-anchor="middle" class="note">追跡点：円周外/内</text>
+  <text x="187" y="323" text-anchor="middle" class="note">波打つ形状</text>
+  
+  <line x1="510" y1="210" x2="510" y2="235" class="line"/>
+  <line x1="410" y1="235" x2="610" y2="235" class="line"/>
+  <line x1="410" y1="235" x2="410" y2="260" class="line"/>
+  <line x1="610" y1="235" x2="610" y2="260" class="line"/>
+  
+  <rect x="330" y="260" width="160" height="40" class="box"/>
+  <text x="410" y="285" text-anchor="middle" class="category">外側を転がる</text>
+  
+  <rect x="530" y="260" width="160" height="40" class="box"/>
+  <text x="610" y="285" text-anchor="middle" class="category">内側を転がる</text>
+  
+  <line x1="410" y1="300" x2="410" y2="325" class="line"/>
+  <line x1="325" y1="325" x2="495" y2="325" class="line"/>
+  <line x1="325" y1="325" x2="325" y2="350" class="line"/>
+  <line x1="495" y1="325" x2="495" y2="350" class="line"/>
+  
+  <rect x="225" y="350" width="200" height="95" class="highlight"/>
+  <text x="325" y="368" text-anchor="middle" class="subcategory">エピサイクロイド</text>
+  <text x="325" y="383" text-anchor="middle" class="note">Epicycloid</text>
+  <text x="325" y="398" text-anchor="middle" class="note">追跡点：円周上</text>
+  <text x="325" y="413" text-anchor="middle" class="note">特殊例：カージオイド (k=1)</text>
+  <text x="325" y="428" text-anchor="middle" class="note">ネフロイド (k=2)</text>
+  
+  <rect x="445" y="350" width="200" height="95" class="highlight"/>
+  <text x="545" y="368" text-anchor="middle" class="subcategory">エピトロコイド</text>
+  <text x="545" y="383" text-anchor="middle" class="note">Epitrochoid</text>
+  <text x="545" y="398" text-anchor="middle" class="note">追跡点：円周外/内</text>
+  <text x="545" y="413" text-anchor="middle" class="note">エピサイクロイドの</text>
+  <text x="545" y="428" text-anchor="middle" class="note">一般形</text>
+  
+  <line x1="610" y1="300" x2="610" y2="325" class="line"/>
+  <line x1="525" y1="325" x2="695" y2="325" class="line"/>
+  <line x1="525" y1="325" x2="525" y2="350" class="line"/>
+  <line x1="695" y1="325" x2="695" y2="350" class="line"/>
+  
+  <line x1="525" y1="350" x2="525" y2="475" class="line"/>
+  <line x1="695" y1="350" x2="695" y2="475" class="line"/>
+  
+  <rect x="425" y="475" width="200" height="95" class="highlight"/>
+  <text x="525" y="493" text-anchor="middle" class="subcategory">ハイポサイクロイド</text>
+  <text x="525" y="508" text-anchor="middle" class="note">Hypocycloid</text>
+  <text x="525" y="523" text-anchor="middle" class="note">追跡点：円周上</text>
+  <text x="525" y="538" text-anchor="middle" class="note">特殊例：アステロイド (k=4)</text>
+  <text x="525" y="553" text-anchor="middle" class="note">デルトイド (k=3)</text>
+  
+  <rect x="625" y="475" width="200" height="95" class="highlight"/>
+  <text x="725" y="493" text-anchor="middle" class="subcategory">ハイポトロコイド</text>
+  <text x="725" y="508" text-anchor="middle" class="note">Hypotrochoid</text>
+  <text x="725" y="523" text-anchor="middle" class="note">追跡点：円周外/内</text>
+  <text x="725" y="538" text-anchor="middle" class="note">玩具：スピログラフ</text>
+  <text x="725" y="553" text-anchor="middle" class="note">（複雑な模様）</text>
+  
+  <rect x="20" y="620" width="610" height="220" fill="#f9f9f9" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="325" y="643" text-anchor="middle" class="category">用語の整理と特徴</text>
+  
+  <text x="40" y="665" class="note" font-weight="bold">【直線上を転がる】</text>
+  <text x="40" y="680" class="note">・サイクロイド：最速降下線、等時曲線として物理学で重要</text>
+  <text x="40" y="695" class="note">・トロコイド：d &gt; r で波打つ形、d &lt; r で滑らかな形</text>
+  
+  <text x="40" y="718" class="note" font-weight="bold">【円の外側を転がる（エピ系）】</text>
+  <text x="40" y="733" class="note">・エピサイクロイド：k=1でカージオイド（心臓形）、k=2でネフロイド（腎臓形）</text>
+  <text x="40" y="748" class="note">・エピトロコイド：より複雑な花びら模様が描ける</text>
+  
+  <text x="40" y="771" class="note" font-weight="bold">【円の内側を転がる（ハイポ系）】</text>
+  <text x="40" y="786" class="note">・ハイポサイクロイド：k=4でアステロイド（星形）、k=3でデルトイド（三角形風）</text>
+  <text x="40" y="801" class="note">・ハイポトロコイド：スピログラフとして玩具化。美しく複雑な幾何学模様</text>
+</svg>

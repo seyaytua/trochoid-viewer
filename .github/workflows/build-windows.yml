@@ -1,0 +1,35 @@
+name: Build Windows EXE
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:  # 手動実行も可能
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Build with PyInstaller
+      run: |
+        python build_windows.py
+    
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: TrochoidViewer-Windows
+        path: dist/TrochoidViewer.exe
+        retention-days: 30
